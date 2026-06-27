@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { useState } from 'react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Navbar from './components/layout/Navbar'
 import SquadPage from './pages/squad/SquadPage'
 
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/squad" element={<SquadPage />} />
         </Routes>
       </BrowserRouter>
+      <SpeedInsights />
     </div>
   )
 }
