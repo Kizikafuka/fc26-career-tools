@@ -115,6 +115,7 @@ fc26-career-tools/
 - Player potential is **hidden by default** — toggle via the "Show Potential" switch
 - Squad Depth auto-assigns players by OVR — fully draggable to customize
 - The Lua script targets your **managed club automatically** via `career_users` table (compatible with FC-24/FC-26 Live Editor API v2)
+- Entirely made using ai so shut up.
 
 ---
 
