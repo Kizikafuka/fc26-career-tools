@@ -1,2 +1,50 @@
 @import "tailwindcss";
+@import "@fontsource-variable/geist";
 @plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "career-dark";
+  default: true;
+  color-scheme: dark;
+  --color-base-100: #171622;
+  --color-base-200: #1A293E;
+  --color-base-300: #1B465E;
+  --color-base-content: #F7F9F9;
+  --color-primary: #169593;
+  --color-primary-content: #F7F9F9;
+  --color-secondary: #16AD6E;
+  --color-secondary-content: #F7F9F9;
+  --color-accent: #53B743;
+  --color-accent-content: #171622;
+  --color-neutral: #1C6A7F;
+  --color-neutral-content: #F7F9F9;
+  --color-info: #1C6A7F;
+  --color-success: #16AD6E;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+}
+
+@plugin "daisyui/theme" {
+  name: "career-light";
+  color-scheme: light;
+  --color-base-100: #F7F9F9;
+  --color-base-200: #E8F4F4;
+  --color-base-300: #D4E8F0;
+  --color-base-content: #171622;
+  --color-primary: #169593;
+  --color-primary-content: #F7F9F9;
+  --color-secondary: #16AD6E;
+  --color-secondary-content: #F7F9F9;
+  --color-accent: #53B743;
+  --color-accent-content: #171622;
+  --color-neutral: #1C6A7F;
+  --color-neutral-content: #F7F9F9;
+  --color-info: #1C6A7F;
+  --color-success: #16AD6E;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+}
+
+* {
+  font-family: 'Geist Variable', sans-serif;
+}
